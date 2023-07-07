@@ -1,0 +1,95 @@
+@import url(webfonts/stylesheet.css);
+
+body {
+    overflow-x: hidden;
+    font-family: 'CustomFonts', graphiks !important;
+    background: hsl(231, 100%, 99%);
+}
+
+/* <!-- ===================== Navbar ===================== --> */
+.nav-link {
+    font-size: 14px;
+}
+
+.right-corner .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.02rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    color: #7982A0 !important;
+}
+
+nav .navbar-toggler {
+    background-color: #243B85;
+    padding: .8rem;
+    border-radius: 10px;
+}
+
+.b-btn {
+    background: transparent;
+    color: #233A85;
+    font-weight: 500;
+    font-style: 1.2rem;
+    line-height: 1.9rem;
+    padding: 0.6rem 3.1rem;
+    border-radius: 1000px;
+    border: 1px solid rgba(35, 58, 133, 0.1);
+    cursor: pointer;
+}
+
+.active {
+    background: #fff !important;
+}
+
+.card {
+    width: 38rem !important;
+    height: 35rem;
+    box-sizing: border-box;
+    margin-top: 5.6rem;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+#cards-sec-2 .card {
+    width: 20rem !important;
+    height: 28rem;
+}
+
+/* Splide Slide Styles */
+.splide__list {
+    display: flex;
+    list-style: none;
+}
+
+.splide__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splide__pagination__page{
+    background: #777;
+}
+
+.splide__pagination__page.is-active{
+    background: #233A85;
+}
+
+.splide{
+    visibility: visible;
+} 
+
+@media (max-width: 962px) {
+
+    .for-large {
+        display: none;
+    }
+
+    .for-large .card {
+        display: none;
+    }
+
+}
